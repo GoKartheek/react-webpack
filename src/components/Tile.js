@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tile = ({name}) => {
+const Tile = ({name = 'Test'}) => {
     const tileStyle = {
         width: '200px',
         padding: '10px 0',
